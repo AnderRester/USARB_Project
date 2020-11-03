@@ -1,0 +1,225 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	user-select: none;
+	font-family: Garamond;
+	text-decoration: none;
+	box-sizing:border-box;
+}
+
+
+/*Общие фрагменты*/
+
+
+select {
+	background: transparent;
+	border: none;
+	font-size: 22px;
+	color: #ffffff;
+	margin-left: 2%;
+	outline: none;
+}
+option {
+	background: #7f2031;
+}
+
+
+/*Первый уровень*/
+
+
+#info {
+	background: #9b263a;
+	font-family: Garamond;
+	color: #ffffff;
+}
+.number {
+	float: right;
+	margin: 5px;
+}
+
+
+/*Второй уровень*/
+
+
+#second_floor {
+	background: #f7f7f7;
+}
+.logo {
+	padding: 5px;
+	padding-left: 20px;
+	width: 27%
+}
+.logo a h1{
+	font-family: matura mt script capitals;
+	font-size: 48px;
+
+}
+.logo a h6{
+	font-size: 12px;
+	margin-top: -10px; 
+}
+.logo a {
+	color: #131313;
+}
+.cabinet {
+	margin-top: -60px;
+	margin-right: 20px;
+	float:right;
+	background: #e7e7e7;
+	box-shadow: 0 0 7px 5px #e0e0e0;
+	border-radius: 7px;
+}
+.cabinet button {
+	font-size: 16px;
+	width: 130px;
+	height: 40px;
+	border-radius: 7px;
+	border-width: 1px;
+	border-color: rgba(200,200,200,0.2);
+	box-shadow: inset 0px 0px 20px 5px rgba(210,210,210,0.5);
+	outline: none;
+}
+
+/*Третий уровень*/
+
+
+#header_nav {
+	height: 40px;
+	background: #9b263a; 
+}
+#header_nav ul {
+
+}
+#header_nav ul li{
+	display: inline;
+}
+#header_nav ul li a{
+
+}
+.header_nav_left {
+	float: left;
+	width: 60%
+}
+.header_nav_left ul{
+	padding-top: 6px;
+	margin-left: 40px;
+}
+.header_nav_left ul li{
+
+}
+.header_nav_left ul li a{
+	margin-left: 5%;
+	font-size: 22px;
+	color: #ffffff;
+}
+.header_nav_right{
+	float: right;
+	padding-top: 6px;
+	margin-right: 20px;
+
+}
+.lang {
+
+}
+/*.search {
+}
+*/
+
+
+/*Слайдер*/
+
+
+.slide{
+
+}
+#slider {
+	text-align: center;
+	margin: 0 auto;
+}
+#slider article {
+	width: 20%;
+	float: left;
+}
+#slider .image {
+	width: 500%;
+	line-height: 0;
+}
+#overflow {
+	width: 100%;
+	overflow: hidden;
+}
+article img {
+	width: 100%
+}
+#desktop:checked ~ #slider{
+	max-width: 1920px;
+}
+label {
+
+}
+label, a {
+	cursor: pointer;
+}
+.slide input {
+	display: none;
+}
+#switch1:checked ~ #slides .image {
+	margin-left: 0%;
+}
+#switch2:checked ~ #slides .image {
+	margin-left: -100%;
+}
+#switch3:checked ~ #slides .image {
+	margin-left: -200%;
+}
+#controls {
+	margin-top: -5%;
+	width: 100%;
+}
+#active label {
+	border-radius: 10px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+#active {
+	margin: 1.7% 0 0;
+	text-align: center;
+}
+#active label:hover {
+	background: #76c8ff;
+	border-color: #777 !important;
+}
+#swith1:checked ~ #active label:nth-child(1),
+#swith2:checked ~ #active label:nth-child(2),
+#swith3:checked ~ #active label:nth-child(3) {
+	background: #18a3dd;
+	border-color: #18a3dd !important;
+}
+#slides .image {
+	transition: all 800ms cubic-bezier(0.25,0.1,0.25,1);
+}
+#controls label:hover {
+	opacity: 0.9;
+}
+#controls label {
+	transition: opacity 0.2s ease-out;
+}
+
+
+/*Новые товары*/
+
+
+#new_furniture {
+	margin-top: 1%;
+	height: 40px;
+	background: #9b263a;
+}
+.name {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 24px;
+	color: #e7e7e7;
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crispol</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div id="info">
+			<select>
+				<option>Moldova</option>
+				<option>Russia</option>
+				<option>Romania</option>
+			</select>
+			<div class="number">+373(231)21-52-0</div>
+		</div>
+		<div id="second_floor">
+			<div class="logo"><a href="#"><h1>Crispol</h1><h6>почувствуй комфорт по-новому</h6></a></div>
+			<div class="cabinet"><button>Личный кабинет</button></div>
+		</div>
+		<div id="header_nav">
+			<div class="header_nav_left">
+				<ul>
+					<li><a href="#">каталог</a></li>
+					<li><a href="#">контакты</a></li>
+					<li><a href="#">филиалы</a></li>
+					<li><a href="#">оплата</a></li>
+					<li><a href="#">доставка</a></li>
+				</ul>
+			</div>
+			<div class="header_nav_right">
+				<!--<div class="search"><input type="search" name=""></div>-->
+				<div class="lang">
+					<select>
+						<option>MD</option>
+						<option>RU</option>
+						<option>RO</option>
+					</select>
+				</div>			
+			</div>
+		</div>
+	</header>
+	<div class="slide">
+			<input checked type="radio" name="respond" id="desktop">
+				<article id="slider">
+					<input checked type="radio" name="slider" id="switch1" value="1">				
+					<input type="radio" name="slider" id="switch2" value="2">				
+					<input type="radio" name="slider" id="switch3" value="3">
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="images/br_1.png" style="max-width: 100%; min-width: 100%; height: auto;"></article>
+							<article><img src="images/br_2.png" style="max-width: 100%; min-width: 100%; height: auto;"></article>
+							<article><img src="images/br_3.png" style="max-width: 100%; min-width: 100%; height: auto;"></article>
+						</div>
+					</div>					
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+				</div>
+				<div id="active">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+				</div>
+				</article>
+		</div>
+</body>
+</html>

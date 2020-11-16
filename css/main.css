@@ -160,6 +160,11 @@ label {
 label, a {
 	cursor: pointer;
 }
+.image img {
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+}
 .slide input {
 	display: none;
 }
@@ -173,7 +178,7 @@ label, a {
 	margin-left: -200%;
 }
 #controls {
-	margin-top: -5%;
+	margin-top: ;
 	width: 100%;
 }
 #active label {
@@ -211,15 +216,76 @@ label, a {
 /*Новые товары*/
 
 
-#new_furniture {
-	margin-top: 1%;
-	height: 40px;
-	background: #9b263a;
+#new_goods_cont {
+	width: 100%;
 }
-.name {
-	padding-top: 5px;
+.new_goods_cont_header {
+	width: 100%;
+	background: #9b263a;
 	text-align: center;
-	font-size: 24px;
 	color: #e7e7e7;
+	font-size: 24px;
+	padding: 4px;
+}
+.new_goods_cont_body {
+	width: 100%;
+	background: #d3d1d1;
+	padding: 6px;
+}
+.cont {
+	margin-top: 9px;
+	margin-left: 3%;
+	background: #e7e7e7;
+	display: inline-block;
+	width: 29%;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+.cont strong {
+	font-family: Garamond;
+	color: #131313;
+}
+.cont img {
+	border-radius: 3px;
+}
+.description {
+	text-align: left;
+	color: #131313;
+}
+.price {
+	color: #131313;
+}
 
+
+/* Каталог */
+
+
+#goods_cont {
+	width: 100%;
+}
+.goods_cont_header {
+	width: 100%;
+	background: #9b263a;
+	text-align: center;
+	color: #e7e7e7;
+	font-size: 24px;
+	padding: 4px;
+}
+.goods_cont_body {
+	width: 100%;
+	background: #d3d1d1;
+	padding: 6px;
+}
+
+
+/* Подвал */
+
+
+footer {
+	padding: 4px;
+	width: 100%;
+	background: #9b263a;
+	text-align: center;
+	color: #e7e7e7;
 }
